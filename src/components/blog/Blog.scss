@@ -1,0 +1,12 @@
+.posts-page {
+  .posts-hero-section-title {
+    margin-top: 2rem;
+    margin-left: 10rem;
+  }
+  .posts-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 10rem;
+    gap: 1rem;
+  }
+}

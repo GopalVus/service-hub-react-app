@@ -1,0 +1,13 @@
+.textarea-input {
+  display: flex;
+  padding: 0.5rem;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+
+  border-radius: 0.25rem;
+  border: 1px solid var(--Gray, #a6a6a6);
+  background: var(--White, #fff);
+}

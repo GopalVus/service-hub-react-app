@@ -1,0 +1,18 @@
+.snackbar {
+  z-index: 1;
+  background-color: #bb86fc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  border-radius: 0.5rem;
+  padding: 20px;
+  width: 300px;
+
+  transform: translateX(-50%);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  animation: slideIn 0.5s ease-in-out;
+}

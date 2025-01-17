@@ -1,0 +1,13 @@
+.cta-container {
+  display: flex;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 1rem 5rem;
+  gap: 1rem;
+  // place-content: center;
+
+  background-color: #f5f7fa;
+}

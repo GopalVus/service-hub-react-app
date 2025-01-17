@@ -1,0 +1,24 @@
+.color-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  height: 7rem;
+  padding: 1rem;
+  gap: 0.5rem;
+
+  border-radius: 0.75rem;
+
+  .white-circle {
+    display: flex;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 1.125rem;
+    place-content: center;
+    flex-shrink: 0;
+
+    border-radius: 6.65625rem;
+    background: var(--version-11, #fff);
+  }
+}

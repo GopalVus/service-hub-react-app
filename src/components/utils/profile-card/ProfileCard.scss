@@ -1,0 +1,28 @@
+.profile-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 10rem;
+  height: 10rem;
+  gap: 0.5rem;
+
+  background-color: #f5f7fa;
+
+  img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 49% 51% 45% 55% / 30% 37% 63% 70%;
+  }
+
+  h4 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+    color: #bb86fc;
+  }
+
+  span {
+    font-size: 0.8rem;
+    color: #bb86fc;
+  }
+}

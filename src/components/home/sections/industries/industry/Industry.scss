@@ -1,0 +1,28 @@
+.industry-container {
+  position: relative;
+
+  width: 18em;
+  height: 14rem;
+
+  // background-color: greenyellow;
+
+  .image {
+    width: 100%;
+    height: 100%;
+
+    opacity: 0.4;
+    border-radius: 0.5rem;
+  }
+
+  h4 {
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    // left: 10rem;
+  }
+  p {
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
+  }
+}

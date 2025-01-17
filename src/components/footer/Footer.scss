@@ -1,0 +1,71 @@
+.footer-container {
+  display: flex;
+  padding: 1rem 7rem;
+  align-items: flex-start;
+  gap: 5.43806rem;
+  .company-title-container {
+    padding-right: 10rem;
+  }
+
+  background: var(--neutral-black, #263238);
+
+  h2 {
+    color: #e4e5e6;
+    font-family: Inter;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.87006rem; /* 87.009% */
+  }
+
+  .copyright {
+    color: var(--neutral-silver, #f5f7fa);
+    font-family: Inter;
+    font-size: 0.60906rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 0.87006rem; /* 142.857% */
+  }
+
+  h3 {
+    color: var(--neutral-white, #fff);
+    font-family: Inter;
+    font-size: 0.87006rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.21813rem; /* 140% */
+  }
+
+  ul {
+    list-style: none;
+    padding-inline-start: 0;
+
+    li {
+      margin-bottom: 0.5rem;
+
+      color: var(--neutral-silver, #f5f7fa);
+      font-family: Inter;
+      font-size: 0.8rem;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 0.87006rem; /* 142.857% */
+    }
+  }
+
+  .email-row {
+    display: flex;
+    gap: 1rem;
+  }
+
+  input {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    gap: 0.625rem;
+    align-self: stretch;
+
+    border-radius: 0.25rem;
+    border: 1px solid var(--Gray, #a6a6a6);
+    background: var(--White, #fff);
+  }
+}
